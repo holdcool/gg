@@ -1,0 +1,106 @@
+
+----------------
+function Main()
+  XGG = gg.choice({
+    "👉①👈这里随意👈",
+    "👉②👈透视👈",
+    "👉③👈上色👈",
+    "👉④👈载具系统👈",
+    "👉⑤👈枪械系统👈",
+    "👉⑥👈变态功能👈",
+    "👉⑦👈地图优化👈",
+    "👉⑧👈美化功能👈",
+    "👉⑨👈更新日志👈",
+    "👉⑩👈加入我们👈",
+
+
+    "👉退出装逼👈"
+  }, nil, "欢迎加入兜兜和谐圈´◡`，群聊号码：863385307")
+  if XGG == 1 then XG1() end
+  if XGG == 2 then XG2() end
+  if XGG == 3 then XG3() end
+  if XGG == 4 then XG4() end
+  if XGG == 5 then XG5() end
+  if XGG == 6 then XG6() end
+  if XGG == 7 then XG7() end
+  if XGG == 8 then XG8() end
+  if XGG == 9 then XG9() end
+  if XGG == 10 then XG10() end
+  if XGG == 11 then Exit() end
+  XGCK = -1
+end
+function XG1()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG1.ico").content))
+end
+
+function XG2()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG2.ico").content))
+end
+
+function XG3()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG3.ico").content))
+end
+
+function XG4()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG4.ico").content))
+end
+
+function XG5()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG5.ico").content))
+end
+
+function XG6()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG6.ico").content))
+end
+
+function XG7()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG7.ico").content))
+end
+
+
+function XG8()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG8.ico").content))
+end
+
+
+function XG9()
+  pcall(load(gg.makeRequest("http://api.5ipa.cc/2/XG9.ico").content))
+end
+
+function XG10()
+  gg.alert("        ⬇️⬇️此脚本作者⬇️⬇️\n              👉不浅👈\n             QQ275769047\n    欢迎加入兜兜和谐圈´◡`，群聊号码：863385307","好的老大")
+  gg.alert("\n    👉👉自动复制群号中👈👈")
+  gg.copyText("863385307")
+  gg.alert("复制成功，欢迎加入")
+end
+
+
+
+function Exit()
+  print("欢迎加入兜兜和谐圈´◡`，群聊号码：863385307")
+  os.exit()
+end
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end

@@ -1,0 +1,402 @@
+function MA()
+  ME845 = gg.choice({
+    '845全画质透视(红b内存)',
+    '845全画质上色(红b内存)',
+    '返回脚本'},
+  nil,'845专版')
+  if ME845 == 1 then MB845() end
+  if ME845 == 2 then MC845() end
+  if ME845 == 3 then Main() end
+  XGCK=-1
+end
+
+function MB845()
+  ME8451 = gg.choice({
+'流畅画质',
+'流畅画质②',
+'均衡画质',
+'高清画质',
+'HDR高清画质',
+'防闪(出生岛开)',
+'返回上一页'},
+nil,'这里都是845稳定透视                  如果想要透视车辆的话可以落地开透视我一般都是训练营开(记住防闪出生岛开)')
+  if ME8451 == 1 then MQ8451() end
+  if ME8451 == 2 then MQ8452() end
+  if ME8451 == 3 then MQ8453() end
+  if ME8451 == 4 then MQ8454() end
+  if ME8451 == 5 then MQ8455() end
+  if ME8451 == 6 then MQ8456() end
+  if ME8451 == 7 then MA() end
+  XGCK=-1
+end
+
+function MC845()
+  ME8452 = gg.choice({
+   '淡紫(流畅)',
+'淡红(均衡)',
+'全白(流畅)',
+'全黄(流畅)',
+'全蓝(流畅)',
+'全红(流畅)',
+'全绿(高清)',
+'全紫(高清)',
+'发光绿(hdr高清)',
+'返回上一页'},
+  nil,'只适用于845上色')
+  if ME8452 == 1 then MW8451() end
+  if ME8452 == 2 then MW8452() end
+  if ME8452 == 3 then MW8453() end
+  if ME8452 == 4 then MW8454() end
+  if ME8452 == 5 then MW8455() end
+  if ME8452 == 6 then MW8456() end
+   if ME8452 == 7 then MW8457() end
+    if ME8452 == 8 then MW8458() end
+     if ME8452 == 9 then MW8459() end
+  if ME8452 == 10 then MA() end
+  XGCK=-1
+end
+
+
+function MQ8451()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.3680222e21F;1.3312335e-43F;1.3912563e-19F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("第一步开启成功，正在开启第二步！")
+ gg.clearResults()
+  gg.searchNumber("4.8146053e21F;2.8866748e-43F;1.3912556e-19F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("第二步开启成功，正在开启第三步！")
+  gg.clearResults()
+  gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+ 
+gg.clearResults()
+
+gg.searchNumber("4.9252857e21F;6.488138e-40F;4.9252863e21F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+
+gg.clearResults()
+gg.searchNumber("1.0761972e-42F;4.5920551e-41F;-1.7632415e-38F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  
+  gg.clearResults()
+gg.searchNumber("1.0761972e-42F;4.5923353e-41F;-1.7632457e-38F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  
+  gg.clearResults()
+gg.searchNumber("5.3311276e21F;1.3312335e-43F;1.391256e-19F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  
+gg.clearResults()
+gg.searchNumber("4.8146041e21;2.8866748e-43;1.3912537e-19;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("120", gg.TYPE_FLOAT)
+ 
+  gg.toast("高通骁龙845透视开启成功！")
+gg.clearResults()
+
+end
+
+
+function MQ8452()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.3311276e21;1.3312335e-43;1.391256e-19;2.0;1.6623108e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("第一步开启成功～祝您游戏愉快，正在开启第二步！")
+gg.clearResults()
+gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("第二步开启成功～祝您游戏愉快，正在开启第三步！")
+gg.clearResults()
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0;0.24022650719;0.69314718246;0.00999999978::29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("流畅透视开启成功～祝您游戏愉快！")
+end
+   
+
+
+
+
+function MQ8453()
+   gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.9252869e21;3.0548307e-43;1.3912525e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.75048923492;1.1646719e-19;5.05571e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.753753e21;5.8728419e-42;3.37548828125;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.8146053e21;2.8866748e-43;1.3912556e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("845透视开启成功  即将开启上色")
+end
+
+function MQ8454()
+ gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("200", gg.TYPE_FLOAT)
+gg.toast("50%")
+gg.clearResults()
+ gg.setRanges(131072)
+  gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2.0;1.6623075e-19::17", 16, false, 536870912, 0, -1)
+   gg.searchNumber("2", 16, false, 536870912, 0, -1) 
+   gg.getResults(15) 
+   gg.editAll("120", 16)
+    gg.toast("45%")
+     gg.clearResults() 
+     gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2.0;1.6623054e-19::17", 16, false, 536870912, 0, -1) 
+     gg.searchNumber("2", 16, false, 536870912, 0, -1)
+      gg.getResults(15)
+       gg.editAll("120", 16) 
+       gg.toast("75%") 
+       gg.clearResults() 
+       gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0;0.24022650719;0.69314718246;0.00999999978::29", 16, false, 536870912, 0, -1) 
+       gg.searchNumber("2", 16, false, 536870912, 0, -1)
+        gg.getResults(15)
+         gg.editAll("120", 16)
+          gg.toast("高清845新透视开启成功")
+end
+
+function MQ8455()
+   gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.9252869e21;3.0548307e-43;1.3912525e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.75048923492;1.1646719e-19;5.05571e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.753753e21;5.8728419e-42;3.37548828125;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.8146053e21;2.8866748e-43;1.3912556e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("845透视开启成功 ")
+end
+
+function MQ8456()
+gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("6.50000333786;1.1202013e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.1202011e-19F;1.1202015e-19F; 3.7615819e-37F;255.0F;2.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.toast("防闪开启成功")
+end
+
+
+
+
+function MW8451()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790660;8200;96;1376273",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('9', gg.TYPE_DWORD)
+gg.toast('紫色开启成功')
+end
+
+function MW8452()
+gg.clearResults()
+gg.searchNumber('8,196D;8,192D;8,200D::', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('8200', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll('7', gg.TYPE_DWORD)
+gg.toast('红色开启成功')
+end
+
+function MW8453()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790660;8200;96;1376273",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('1', gg.TYPE_DWORD)
+gg.toast('白色开启成功')
+end
+
+function MW8454()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790660;8200;96;1376273",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('6', gg.TYPE_DWORD)
+gg.toast('金色开启成功')
+end
+
+function MW8455()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790660;8200;96;1376273",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('10', gg.TYPE_DWORD)
+gg.toast('蓝色开启成功')
+end
+
+function MW8456()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790660;8200;96;1376273",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('7', gg.TYPE_DWORD)
+gg.toast('红色开启成功')
+end
+
+
+function MW8457()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,897;102,667;540,673;147,457::",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("147457",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('98765', gg.TYPE_DWORD)
+gg.toast('绿色开启成功')
+end
+
+
+function MW8458()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,897;102,667;540,673;147,457::",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("147457",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(5201314)
+gg.editAll('9878', gg.TYPE_DWORD)
+gg.toast('紫色开启成功')
+end
+
+function MW8459()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1,081,081,861;7;-2,146,435,049;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("6", gg.TYPE_DWORD)
+  gg.toast("上色开启成功")
+end
+
+
+
+
+
+
+
+
+
+
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    MA()
+  end
+end
+
+
+
+
+
+
+
+
+

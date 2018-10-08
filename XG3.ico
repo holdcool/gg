@@ -1,0 +1,264 @@
+
+function SS()
+  SS = gg.choice({
+    '人物绿色',
+    '人物黄色',
+    '人物红色',
+    '全绿',
+    '全黄',
+    '百变色',
+    '发光色（845HDR）',
+    '屎黄色（660）',
+    '全红',
+    '黑色',
+    '白色（巨稳）',
+    '蓝色',
+    '粉色',
+    '835上色',
+    '黑白变色',
+    '返回上一页'},
+  nil,'☘️欢迎加入兜兜和谐圈863385307☘️')
+  if SS == 1 then b1() end
+  if SS == 2 then b2() end
+  if SS == 3 then b3() end
+  if SS == 4 then b4() end
+  if SS == 5 then b5() end
+  if SS == 6 then b6() end
+  if SS == 7 then b7() end
+  if SS == 8 then b8() end
+  if SS == 9 then b9() end
+  if SS == 10 then b10() end
+  if SS == 11 then XS6() end
+  if SS == 12 then b12() end
+  if SS == 13 then b13() end
+  if SS == 14 then b14() end
+  if SS == 15 then b15() end
+  if SS == 16 then Main() end
+  XGCK=-1
+end
+
+
+
+
+function b1()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("69,778;1,669,332,992;11;536,887,297", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("69778;11", gg.TYPE_DWORD, false, SIGN_EQUAL, 0, -1)
+  gg.getResults(4)
+  gg.editAll("32777", gg.TYPE_DWORD)
+  gg.toast("绿色开启成功")
+
+end
+
+
+
+
+function b2()
+
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.3912525e-19F;8200;96",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(10)
+  gg.editAll("6",gg.TYPE_DWORD)
+  gg.toast("新版人物黄色开启成功")
+end
+
+
+
+
+function b3()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("红色开启成功")
+end
+
+
+
+function b4()
+
+  gg.clearResults()
+  gg.searchNumber("69,778D;1,669,332,992D;11D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("11", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("32777", gg.TYPE_DWORD)
+  gg.toast("新版绿人开启成功")
+end
+
+
+function b5()
+
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("6", gg.TYPE_DWORD)
+  gg.toast("人物黄色开启成功")
+end
+
+function b6()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",16 ,false ,536870912 ,0 ,-1 )
+  gg.searchNumber("2",16 ,false ,536870912 ,0 ,-1 )
+  gg.getResults(30 )
+  gg.editAll("120",16 )
+  gg.toast("开启中……")
+  gg.clearResults()
+  gg.setRanges(131072 )gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100",16 ,false ,536870912 ,0 ,-1 )gg.searchNumber("2",16 ,false ,536870912 ,0 ,-1 )
+  gg.getResults(30 )
+  gg.editAll("120",16 )
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+  gg.toast("百变色开启成功")
+end
+
+
+function b7()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1,081,081,861;7;-2,146,435,049;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("上色开启成功")
+end
+
+
+function b8()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("201851904;3874;50335498;252907268;5;32790:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("683128", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("201851904;3846;50335490;252776217;5;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("683128", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("201851904;252248832;253824770;252776218;6;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("683128", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber(" 201851904;3845;55378697;253824769;252645146;7:72", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("683128", gg.TYPE_DWORD)
+  gg.toast("660黄色开启成功")
+end
+
+
+function b9()
+  gg.clearResults()
+  gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("红色开启成功")
+end
+function b10()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("671,236,103D;536,887,303D;1.4012985e-44F;1.5414283e-44F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("671,236,103", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("6,236,103", gg.TYPE_DWORD)
+  gg.toast("黑色开启成功")
+
+end
+
+
+
+function b11()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3;1,081,612,800;278,200,320", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("白色已开启")
+end
+
+
+function b12()
+
+  gg.clearResults()
+  gg.setRanges(131072)
+  gg.searchNumber("8200;1,080,035,591::512", 4, false, 536870912, 0, -1)
+  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("99", 4)
+  gg.toast("人物蓝色开启成功")
+end
+
+
+function b13()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.25;1.3555836e-19;65536D;3.75::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.25;1.3555836e-19", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("11980", gg.TYPE_FLOAT)
+  gg.toast("粉红开启成功")
+end
+
+function b14()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-1.4693707e-39F;1;2;3.2737415e-40F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1;2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("蓝色开启成功")
+end
+
+function b15()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3;1,081,612,800;278,200,320", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-1", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("蓝黑白色已开启")
+end
+
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    SS()
+  end
+end

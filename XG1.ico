@@ -1,0 +1,467 @@
+function FF()
+FF = gg.multiChoice({
+       "防封第一步（开一次即可，切勿长时间切后台，打电话）",
+       "防封第二步",
+       "防封第三步",
+       "防封第四步",
+       "防封第五步",
+       "防检测第三方(进游戏打开)",
+       "返回脚本"},nil,"防封这玩意都是随缘，开不开看你的脸，都是自动冻结的，不用退脚本了 ") 
+if FF == nil then else
+if FF[1]== true then ff1() end
+if FF[2]== true then ff2() end
+if FF[3]== true then ff3() end
+if FF[4]== true then ff4() end
+if FF[5]== true then ff5() end
+if FF[6]== true then ff6() end
+if FF[7]== true then Main() end
+end
+    XGCK=-1
+end
+
+function ff1()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("909391408;808923191::5", gg.TYPE_DWORD)
+if gg.getResultCount() == 0 then
+  gg.toast("防封第一步鉴权失败，可能你已经开过一次了，正在执行下一步搜索")
+else
+gg.getResults(999)
+  gg.editAll("1089886885", gg.TYPE_DWORD)
+  t=gg.getResults(1000)
+  gg.editAll("1089886885", gg.TYPE_DWORD)
+  t[1].value = '1089886885'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = '1089886885'
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[3].value = '1089886885'
+t[3].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[4].value = '1089886885'
+t[4].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[5].value = '1089886885'
+t[5].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[6].value = '1089886885'
+t[6].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[7].value = '1089886885'
+t[7].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[8].value = '1089886885'
+t[8].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[9].value = '1089886885'
+t[9].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[10].value = '1089886885'
+t[10].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[11].value = '1089886885'
+t[11].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[12].value = '1089886885'
+t[12].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[13].value = '1089886885'
+t[13].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[14].value = '1089886885'
+t[14].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[15].value = '1089886885'
+t[15].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[16].value = '1089886885'
+t[16].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[17].value = '1089886885'
+t[17].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[18].value = '1089886885'
+t[18].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[19].value = '1089886885'
+t[19].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[20].value = '1089886885'
+t[20].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[21].value = '1089886885'
+t[21].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[22].value = '1089886885'
+t[22].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[23].value = '1089886885'
+t[23].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[24].value = '1089886885'
+t[24].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[25].value = '1089886885'
+t[25].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[26].value = '1089886885'
+t[26].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[27].value = '1089886885'
+t[27].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[28].value = '1089886885'
+t[28].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[29].value = '1089886885'
+t[29].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[30].value = '1089886885'
+t[30].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[31].value = '1089886885'
+t[31].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[32].value = '1089886885'
+t[32].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[33].value = '1089886885'
+t[33].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[34].value = '1089886885'
+t[34].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[35].value = '1089886885'
+t[35].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[36].value = '1089886885'
+t[36].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[37].value = '1089886885'
+t[37].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[38].value = '1089886885'
+t[38].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[39].value = '1089886885'
+t[39].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[40].value = '1089886885'
+t[40].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[41].value = '1089886885'
+t[41].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[42].value = '1089886885'
+t[42].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[43].value = '1089886885'
+t[43].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[44].value = '1089886885'
+t[44].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[45].value = '1089886885'
+t[45].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[46].value = '1089886885'
+t[46].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[47].value = '1089886885'
+t[47].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[48].value = '1089886885'
+t[48].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[49].value = '1089886885'
+t[49].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[50].value = '1089886885'
+t[50].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[51].value = '1089886885'
+t[51].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[52].value = '1089886885'
+t[52].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[53].value = '1089886885'
+t[53].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[54].value = '1089886885'
+t[54].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[55].value = '1089886885'
+t[55].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[56].value = '1089886885'
+t[56].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[57].value = '1089886885'
+t[57].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[58].value = '1089886885'
+t[58].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[59].value = '1089886885'
+t[59].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[60].value = '1089886885'
+t[60].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[61].value = '1089886885'
+t[61].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[62].value = '1089886885'
+t[62].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[63].value = '1089886885'
+t[63].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[64].value = '1089886885'
+t[64].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[65].value = '1089886885'
+t[65].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[66].value = '1089886885'
+t[66].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[67].value = '1089886885'
+t[67].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[68].value = '1089886885'
+t[68].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[69].value = '1089886885'
+t[69].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[70].value = '1089886885'
+t[70].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[71].value = '1089886885'
+t[71].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[72].value = '1089886885'
+t[72].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[73].value = '1089886885'
+t[73].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[74].value = '1089886885'
+t[74].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[75].value = '1089886885'
+t[75].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[76].value = '1089886885'
+t[76].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[77].value = '1089886885'
+t[77].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[78].value = '1089886885'
+t[78].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[79].value = '1089886885'
+t[79].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[80].value = '1089886885'
+t[80].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[81].value = '1089886885'
+t[81].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[82].value = '1089886885'
+t[82].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[83].value = '1089886885'
+t[83].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[84].value = '1089886885'
+t[84].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[85].value = '1089886885'
+t[85].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[86].value = '1089886885'
+t[86].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[87].value = '1089886885'
+t[87].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[88].value = '1089886885'
+t[88].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[89].value = '1089886885'
+t[89].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[90].value = '1089886885'
+t[90].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[91].value = '1089886885'
+t[91].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[92].value = '1089886885'
+t[92].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[93].value = '1089886885'
+t[93].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[94].value = '1089886885'
+t[94].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[95].value = '1089886885'
+t[95].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[96].value = '1089886885'
+t[96].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[97].value = '1089886885'
+t[97].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[98].value = '1089886885'
+t[98].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[99].value = '1089886885'
+t[99].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[100].value = '1089886885'
+t[100].freeze = true
+ gg.toast("防封第一步鉴权成功，请勿切后台和接电话，会掉")
+end
+end
+
+
+function ff2()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("257;2131;0F~99999F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+  gg.toast("防封第二步搜索失败，可能你已经开过一次了，正在执行下一步搜索")
+else
+gg.searchNumber("0F~99999F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+t=gg.getResults(8)
+  gg.editAll("0", gg.TYPE_DWORD)
+t[1].value = '0'
+t[1].freeze = true
+t[2].value = '0'
+t[2].freeze = true
+t[3].value = '0'
+t[3].freeze = true
+t[4].value = '0'
+t[4].freeze = true
+t[5].value = '0'
+t[5].freeze = true
+t[6].value = '0'
+t[6].freeze = true
+t[7].value = '0'
+t[7].freeze = true
+t[8].value = '0'
+t[8].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("防封第二步冻结成功")
+end
+end
+
+
+
+function ff3()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1.4349296e-41;1.4012985e-45;5.6051939e-45;2.986167e-42", gg.TYPE_FLOAT)
+if gg.getResultCount() == 0 then
+  gg.toast("防封第三步搜索失败，可能你已经开过一次了")
+else
+  gg.searchNumber("2.986167e-42", gg.TYPE_FLOAT)
+   t=gg.getResults(1)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  t[1].value = "0"
+  t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("防封第三步自动冻结成功")
+end
+end
+
+
+function ff4()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("257;2131;-10F~888888F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.toast("防封第四步搜索失败，可能你已经开过一次了")
+else
+gg.searchNumber("-10F~888888F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+t = gg.getResults(8)
+t[1].value = '0'
+t[1].freeze = true
+t[2].value = '0'
+t[2].freeze = true
+t[3].value = '0'
+t[3].freeze = true
+t[4].value = '0'
+t[4].freeze = true
+t[5].value = '0'
+t[5].freeze = true
+t[6].value = '0'
+t[6].freeze = true
+t[7].value = '0'
+t[7].freeze = true
+t[8].value = '0'
+t[8].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("防封第四步冻结成功")
+end
+end
+
+
+function ff5()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+  gg.toast("防封第五步搜索失败，可能你已经开过一次了，正在执行下一步搜索")
+else
+gg.getResults(999)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("防封第五步开启成功")
+  end
+  end
+  
+
+
+
+
+function ff6()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("909391408;808923191::5", gg.TYPE_DWORD)
+if gg.getResultCount() == 0 then
+  gg.toast("防封检测第三方鉴权失败，可能你已经开过一次了，正在执行下一步搜索")
+else
+gg.getResults(999)
+  gg.editAll("1089886885", gg.TYPE_DWORD)
+  gg.toast("过检测成功，请在登录界面之前多点两次")
+end
+end
+
+
+
+
+
+
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    FF()
+  end
+end

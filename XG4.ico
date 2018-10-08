@@ -1,0 +1,87 @@
+function ZJ()
+ZJ = gg.choice({
+    '1.★吉普下水★（失效）',
+    '2.★吉普加速★',
+    '3.★蹦蹦加速★',
+    '返回上一页'},
+  nil,'☘️一定要坐上车再开☘️')
+if ZJ == nil then else
+  if ZJ == 1 then zj1() end
+  if ZJ == 2 then zj2() end
+  if ZJ == 3 then zj3() end
+  if ZJ == 4 then Main() end
+  XGCK =-1
+end 
+ end
+
+
+
+
+
+
+
+
+function zj1() 
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("99998", gg.TYPE_FLOAT)
+  gg.toast("吉普下水开启成功")
+end
+
+
+function zj2() 
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.74509805441;10000;3500::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+    gg.toast("吉普加速开启失败")
+  else
+    gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll("50", gg.TYPE_FLOAT)
+    gg.toast("吉晋加速开启成功")
+  end
+end
+
+
+
+function zj3() 
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("50;5;2;0.5;0.01::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("50;5;2;0.5;0.01::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-0.23", gg.TYPE_FLOAT)
+  gg.toast("蹦蹦加速开启成功") 
+end 
+
+
+
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    ZJ()
+  end
+end

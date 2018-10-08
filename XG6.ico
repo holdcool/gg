@@ -1,0 +1,437 @@
+function BT()
+BT = gg.multiChoice({
+'除草（出生岛或落地或训练营）',
+'光速开镜（持枪）',
+'高资源定位（落地）',
+'无脚步（落地）',
+'站立路飞（持枪）',
+'冻结透视上黄色（测试）',
+'自瞄①（大厅）',
+'自瞄②（出生地）',
+'高跳防摔（落地）',
+'准星聚点（持枪）',
+'待添加',
+'全枪械加速无延迟瞬击（持枪）',
+'待添加',
+'待添加',
+'待添加',
+'待添加',
+'返回上页'},
+nil,
+ '娱乐功能')
+if BT == nil then else
+if BT[1] == true then bt1() end
+if BT[2] == true then bt2() end
+if BT[3] == true then bt3() end
+if BT[4] == true then bt4() end
+if BT[5] == true then bt5() end
+if BT[6] == true then bt6() end
+if BT[7] == true then bt7() end
+if BT[8] == true then bt8() end
+if BT[9] == true then bt9() end
+if BT[10] == true then bt10() end
+if BT[11] == true then bt11() end
+if BT[12] == true then MenuGunspeed() end
+if BT[13] == true then bt13() end
+if BT[14] == true then bt14() end
+if BT[15] == true then bt15() end
+if BT[16] == true then bt16() end
+if BT[17] == true then Main() end
+  end
+XGCK = -1
+end
+
+
+function bt1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber('2;-1;1;10000;-127::32', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll('0', gg.TYPE_FLOAT)
+gg.toast('稳定除草成功')
+end
+
+function bt2()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.37999999523F; 1.0F :6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.37999999523", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("-3", gg.TYPE_FLOAT)
+gg.toast('秒开镜成功')
+end
+
+
+
+function bt3()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("0.7576~0.7579", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.7576~0.7579", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.1689529418945", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("999999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3.4779739379883;2.8345839977264;3.1967880725861;3.8841888904572;3.1528658866882::208", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3.4779739379883", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("3,005,0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("0.73620933294296", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("999999999", gg.TYPE_FLOAT)
+gg.toast("新版3级装备定位开启成功")
+gg.toast("八倍镜三级信号枪定位开启成功")
+end
+
+
+
+function bt4()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2D;256D;256D;0.96666663885117;256D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.96666663885117", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("999.9949", gg.TYPE_FLOAT)
+  t[1].value = "999.9949"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("幽灵步伐开启成功")
+end
+
+
+
+
+
+function bt5()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("18.38614845276;0.53446006775;-3.4266242981", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("200", gg.TYPE_FLOAT)
+gg.toast("站立路飞")
+end
+
+
+
+
+function bt6()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+t=gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+t[1].value = "120"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = "120"
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.clearResults()
+gg.searchNumber("2.25;3.7500004768372;2.2500009536743;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+t=gg.getResults(2)
+gg.editAll("120", gg.TYPE_FLOAT)
+t[1].value = "120"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = "120"
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.clearResults()
+gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+t=gg.getResults(1)
+gg.editAll("120", gg.TYPE_FLOAT)
+t[1].value = "120"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+-----gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+----gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.0;4.7408149e21;4.814603e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)----全身马赛克
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+t=gg.getResults(4)
+gg.editAll("120", gg.TYPE_FLOAT)
+t[1].value = "120"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = "120"
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[3].value = "120"
+t[3].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[4].value = "120"
+t[4].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("冻结透视成功，上黄中")
+gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("256D;8,200D;1,194,380,045D", 4, false, 536870912, 0, -1)
+  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+t=gg.getResults(10)
+  gg.editAll("6", 4)
+t[1].value = "6"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = "6"
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("256D;8,200D;1,194,380,042D", 4, false, 536870912, 0, -1)
+  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+t=gg.getResults(10)
+gg.editAll("6", 4)
+t[1].value = "6"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+t[2].value = "6"
+t[2].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("黄成功")
+end
+
+
+
+function bt7()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;0.5;200;20:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  t=gg.getResults(100)
+  gg.editAll("999999", gg.TYPE_FLOAT)
+  t[1].value = "999999"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+  gg.toast("第一步开启，请在出生地打开第二步")
+end
+
+
+function bt8()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('36;1065353216;50528513;1203982336:', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1065353216', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll('1,090,519,040', gg.TYPE_DWORD)
+gg.toast("自瞄开启成功，配合午后使用更爽哦")
+end
+
+
+function bt9()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::,", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+ t= gg.getResults(10)
+  gg.editAll("0.1", gg.TYPE_FLOAT)
+ t[1].value = "0.1"
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+  gg.toast("人物高跳开启成功")
+  gg.clearResults()
+gg.searchNumber("0.03E;0.6E;1.0E;0.5E::512", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_DOUBLE)
+gg.toast("防摔")
+  end
+
+
+
+
+function bt10()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("提示:准星聚点开启成功")
+  gg.clearResults()
+end
+
+
+function bt11()
+  gg.toast("提示:这里没有功能等待添加")
+end
+
+
+function bt12()
+  gg.toast("提示:这里没有功能等待添加")
+end
+
+function bt13()
+  gg.toast("提示:这里没有功能等待添加")
+end
+
+function bt15()
+  gg.toast("提示:这里没有功能等待添加")
+end
+
+
+
+ function MenuGunspeed()
+Gun = gg.multiChoice({
+'1.M416瞬击（持枪/一次/稳到飞起）',
+'2.AK瞬击（持枪/一次/稳到飞起）',
+'3.M16瞬击（持枪/一次/稳到飞起）',
+'4.冲锋枪全枪瞬击（持任意冲锋枪/一次/稳到飞起）',
+'5.VSS瞬击（持枪/一次/稳到飞起）',
+'6.98K瞬击（持枪/一次/稳到飞起）',
+'7.M24瞬击（持枪/一次/稳到飞起）',
+'8.AWM瞬击（持枪/一次/稳到飞起）',
+'返回上页'},
+nil,
+ '稳定变态，枪械加速全功能奔放')
+
+if Gun== nil then else
+if Gun[1] == true then Gun1() end
+if Gun[2] == true then Gun2() end
+if Gun[3] == true then Gun3() end
+if Gun[4] == true then Gun4() end
+if Gun[5] == true then Gun5() end
+if Gun[6] == true then Gun6() end
+if Gun[7] == true then Gun7() end
+if Gun[8] == true then Gun8() end
+if Gun[9] == true then B() end
+  end
+    PD1 = 0
+    PD2 = 0
+end
+
+
+
+
+function Gun1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("88000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("M416 5000米瞬击开启成功")
+end
+
+
+function Gun2()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("71500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("71500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("AKM 5000米瞬击开启成功")
+end
+
+
+
+function Gun3()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("M16瞬击开启成功")
+end
+
+
+function Gun4()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(800)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("冲锋枪瞬击开启成功")
+end
+
+function Gun5()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("VSS瞬击开启成功")
+end
+
+function Gun6()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("98K瞬击开启成功")
+end
+
+function Gun7()
+ggg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.toast("M24瞬击开启成功")
+end
+
+function Gun8()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.toast("AWM瞬击开启成功")
+end
+
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    BT()
+  end
+end
