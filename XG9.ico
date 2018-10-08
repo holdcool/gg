@@ -1,0 +1,14 @@
+update  = gg.alert("版本号：3.0\n更新时间：2018年10月1日","➽开始奔放")
+if update == 1 then Main() end
+
+
+while true do
+sj = os.date("\ %c")
+if gg.isVisible(true) then
+LW1 = nil
+gg.setVisible(false)
+end
+if LW1 == nil then
+update()
+end
+end

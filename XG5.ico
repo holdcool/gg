@@ -1,0 +1,233 @@
+function QX()
+QX = gg.multiChoice({
+'下蹲路飞(落地)',
+'人物天线(大厅)',
+'头部范围(大厅)',
+'超大范围(大厅)',
+'蓝色血液(持枪)',
+'全枪无后(持枪)',
+'单枪无后(持枪)',
+'开镜防抖(持枪)',
+'全屏自瞄(大厅)',
+'半屏自瞄(大厅)',
+'子弹追踪(落地)',
+'人物踏空防摔(落地)',
+'返回上一页'},
+nil,'功能配合防封使用')
+if QX == nil then else
+if QX[1] == true then QX1() end
+if QX[2] == true then QX2() end
+if QX[3] == true then QX3() end
+if QX[4] == true then QX4() end
+if QX[5] == true then QX5() end
+if QX[6] == true then QX6() end
+if QX[7] == true then QX7() end
+if QX[8] == true then QX8() end
+if QX[9] == true then QX9() end
+if QX[10] == true then QX10() end
+if QX[11] == true then QX11() end
+if QX[12] == true then QX12() end
+if QX[13] == true then Main() end
+  end
+XGCK = -1
+end
+
+function QX1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1,135,081,726", gg.TYPE_DWORD)
+gg.toast('下蹲路飞开启成功')
+end
+
+function QX2()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("16000", gg.TYPE_FLOAT)
+gg.toast("人物天线开启成功")
+end
+
+function QX3()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("240", gg.TYPE_FLOAT)
+gg.toast("头部范围开启成功")
+end
+
+function QX4()
+gg.clearResults() 
+
+gg.setRanges(gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("30.5;25",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1) 
+
+gg.searchNumber("25",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(2) 
+
+gg.editAll("888",gg.TYPE_FLOAT)
+
+gg.toast("大范围开启成功")
+
+end
+
+function QX5()
+gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.6815582e-44;1.1204998e-19;0.5;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("444", gg.TYPE_FLOAT)
+  gg.toast("提示:喷蓝血开启成功")
+end
+
+
+function QX6()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("176,293,393;1,065,353,216;1,059,481,190", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("176,293,393", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("100,00000", gg.TYPE_DWORD)
+gg.toast("全枪无后开启")
+end
+
+function QX7()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("176293393;0.65F~0.9F;8F;9.5F;15F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("176293393", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("176293394", gg.TYPE_DWORD)
+gg.toast("无后开启成功")
+end
+
+function QX8()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("9.5~10;15;20000;0.2~0.3;53;30;0~1::350", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.2~0.3;0~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("开镜防抖开启成功")
+end
+
+function QX9()
+gg.clearResults()
+  
+gg.searchNumber("3.5;1;0.5;200;20::335", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.getResults(1)
+  
+gg.editAll("999999", gg.TYPE_FLOAT)
+  
+gg.toast("全屏自瞄已开启")
+
+end
+
+function QX10()
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber('36;1065353216;50528513;1203982336:', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1065353216', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll('1,090,519,040', gg.TYPE_DWORD)
+
+gg.toast("半屏自瞄已开启")
+
+end
+
+function QX11()
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("90.775703430176;0;8;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResultCount()
+
+gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1)
+
+gg.editAll("110", gg.TYPE_FLOAT)
+
+gg.toast("子弹追踪开启成功")
+
+end
+
+function QX12()
+gg.clearResults()
+  
+gg.setRanges(gg.REGION_ANONYMOUS)
+  
+gg.searchNumber("1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::,", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.getResults(9999)
+  
+gg.editAll("999", gg.TYPE_FLOAT)
+  
+gg.toast("人物踏空开启成功")
+  
+gg.clearResults()
+  
+gg.setRanges(gg.REGION_ANONYMOUS)
+  
+gg.searchNumber("715E;1,068,893,208D;1::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  
+gg.getResults(1)
+  
+gg.editAll("11", gg.TYPE_DOUBLE)
+  
+gg.toast("防摔开启成功")
+ 
+end
+
+
+
+
+
+
+
+
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    QX()
+  end
+end

@@ -1,0 +1,294 @@
+  function PF()
+PF = gg.choice({
+    "     1.AK赤橙皮肤",
+    "     2.AK白银皮肤",
+    "     3.AK红白皮肤",
+    "     4.M4樱花皮肤",
+    "     5.M4黑金皮肤",
+    "     6.M4中国红皮肤",
+    "     7.M16玫瑰皮肤",
+    "     8.M16黑金皮肤",
+    "     9.UZI狂怒皮肤",
+    "     10.UMP9赤橙皮肤",
+    "     11.UMP9老鹰皮肤",
+    "     12.UMP9樱花皮肤",
+    "     13.98K黑金皮肤",
+    "     14.98K红色皮肤",
+    "     15.AWM樱花皮肤",
+    "     16.SCAR狂怒皮肤",
+    "     17.SCAR黑金皮肤",
+    "     18.SCAR赤橙皮肤",
+    "     19.小黄衣改风衣",
+    "     20.平底锅蓝色皮肤",
+    "   返回上一页  "
+  }, nil, "武器衣服美化专区     \n大厅取消武器展示.再开.")
+  if PF == 1 then
+    pf1()
+  end
+  if PF == 2 then
+    pf2()
+  end
+  if PF == 3 then
+    pf3()
+  end
+  if PF == 4 then
+    pf4()
+  end
+  if PF == 5 then
+    pf5()
+  end
+  if PF == 6 then
+    pf6()
+  end
+  if PF == 7 then
+    pf7()
+  end
+  if PF == 8 then
+    pf8()
+  end
+  if PF == 9 then
+    pf9()
+  end
+  if PF == 10 then
+    pf10()
+  end
+  if PF == 11 then
+    pf11()
+  end
+  if PF == 12 then
+    pf12()
+  end
+  if PF == 13 then
+    pf13()
+  end
+  if PF == 14 then
+    pf14()
+  end
+  if PF == 15 then
+    pf15()
+  end
+  if PF == 16 then
+    pf16()
+  end
+  if PF == 17 then
+    pf17()
+  end
+  if PF == 18 then
+    pf18()
+  end
+  if PF == 19 then
+    pf19()
+  end
+  if PF == 20 then
+    pf20()
+  end
+  if PF == 21 then
+    Main()
+  end
+end
+function pf1()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101001001", gg.TYPE_DWORD)
+  gg.toast("AK赤橙皮肤开启成功")
+end
+function pf2()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101001002", gg.TYPE_DWORD)
+  gg.toast("AK白银皮肤开启成功")
+end
+function pf3()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101001004", gg.TYPE_DWORD)
+  gg.toast("AK红白皮肤开启成功")
+end
+function pf4()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101004001", gg.TYPE_DWORD)
+  gg.toast("M416樱花皮肤开启成功")
+end
+function pf5()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101004002", gg.TYPE_DWORD)
+  gg.toast("M416黑金皮肤开启成功")
+end
+function pf6()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("101004007", gg.TYPE_DWORD)
+  gg.toast("M416中国红皮肤开启成功")
+end
+function pf7()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100200;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101002004", gg.TYPE_DWORD)
+  gg.toast("M16玫瑰皮肤开启成功")
+end
+function pf8()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100200;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101002003", gg.TYPE_DWORD)
+  gg.toast("M16黑金皮肤开启成功")
+end
+function pf9()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10200100;102001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("102001003", gg.TYPE_DWORD)
+  gg.toast("UZI狂怒皮肤开启成功")
+end
+function pf10()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("102002001", gg.TYPE_DWORD)
+  gg.toast("UMP9赤橙皮肤开启成功")
+end
+function pf11()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("102002002", gg.TYPE_DWORD)
+  gg.toast("UMP9老鹰皮肤开启成功")
+end
+function pf12()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("102002003", gg.TYPE_DWORD)
+  gg.toast("UMP9樱花皮肤开启成功")
+end
+function pf13()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("103001002", gg.TYPE_DWORD)
+  gg.toast("98k黑金皮肤开启成功")
+end
+function pf14()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("103001005", gg.TYPE_DWORD)
+  gg.toast("98k红色皮肤开启成功")
+end
+function pf15()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10300300;103003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("103003001", gg.TYPE_DWORD)
+  gg.toast("AWM樱花皮肤开启成功")
+end
+function pf16()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101003001", gg.TYPE_DWORD)
+  gg.toast("SCAR狂怒皮肤开启成功")
+end
+function pf17()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101003002", gg.TYPE_DWORD)
+  gg.toast("SCAR黑金皮肤开启成功")
+end
+function pf18()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("101003003", gg.TYPE_DWORD)
+  gg.toast("SCAR赤橙皮肤开启成功")
+end
+function pf19()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("100;403017;4;1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("403017", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("403188", gg.TYPE_DWORD)
+  gg.toast("小黄衣改黄金风衣成功")
+end
+function pf20()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("10800400;108004::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("108004004", gg.TYPE_DWORD)
+  gg.toast("平底锅皮肤开启成功")
+end
+
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    PF()
+  end
+end

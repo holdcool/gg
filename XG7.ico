@@ -1,0 +1,117 @@
+
+function TK()
+  TK = gg.choice({
+    '1.黑夜天空',
+    '2.蔚蓝天空',
+    '3.晨青天空',
+    '4.粉甜天空',
+    '5.全图除草',
+    '6.返回首页'
+  }, nil, '提示:在出生岛开启')
+if TK == nil then else
+  if TK == 1 then
+    TK1()
+  end
+  if TK == 2 then
+    TK2()
+  end
+  if TK == 3 then
+    TK3()
+  end
+  if TK == 4 then
+    TK4()
+  end
+  if TK == 5 then
+    TK10()
+  end
+  if TK == 6 then
+    Main() 
+  end
+  XGCK=-1
+end
+end
+
+
+function TK1()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("403,200.0;4,718.40625;100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-90", gg.TYPE_FLOAT)
+  gg.toast("黑夜天空开启成功  仅海岛有效")
+  gg.clearResults()
+end
+
+function TK2()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-2,133,852,158;1,076,887,552;1,081,608,449", 4, false, 536870912, 0, -1)
+  gg.searchNumber("1,081,608,449", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1", 4)
+  gg.toast("蔚蓝天空开启成功")
+  gg.clearResults()
+end
+
+function TK3()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-2,133,852,158;1,076,887,552;32770", 4, false, 536870912, 0, -1)
+  gg.searchNumber("32770", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("32777", 4)
+  gg.toast("晨青天空开启成功")
+  gg.clearResults()
+end
+
+function TK4()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-2,133,852,158;1,076,887,552;32769", 4, false, 536870912, 0, -1)
+  gg.searchNumber("32769", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("32777", 4)
+  gg.toast("粉甜天空开启成功")
+  gg.clearResults()
+end
+function TK10()
+ gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("252645121;252382983;201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("3856;201851904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast("全图除草成功")
+end
+
+function Fan_searchNumber(n, type, ft, sign, r, s)
+  gg.setVisible(false)
+  gg.searchNumber(n, type, ft, sign, r, s)
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    gg.processKill()
+    print("请勿窥码！谢谢！！")
+    gg.toast("")
+    while true do
+      gg.setVisible(false)
+    end
+  end
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    TK()
+  end
+end
